@@ -16,7 +16,7 @@ body
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;;
 }
-.table {
+table {
     margin: auto;
     border-collapse: collapse;
     width: 50%;
@@ -24,6 +24,32 @@ body
     border-radius: 8px;
    
 }
+
+table, td, th {
+  border: 1px solid;
+  border-style: solid;
+  border-width: 2px; 
+  
+  padding: 10px 12px
+}
+td {
+    text-align: center;
+    color :#584a3d;
+    background-color: #ede0cc;
+    border-color: #8c755f;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 12px;
+}
+th {
+    text-align:center;
+    color :#715d4b;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #b1a49a;
+     border-color: #8c755f;
+     padding: 10px 12px;
+}
+    
+
 .heading{
     max-width: 800px;
     max-height: 100px;;
@@ -49,4 +75,24 @@ body
     text-align:center;
     color :#715d4b;
     font-family: 'Josefin Sans', sans-serif;
+    background-color: #b1a49a;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 4px;
+}
+.navigation{
+    text-align: left;
+    color: #534539;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 400px;
+    margin: auto; 
+    background-color: #ede0cc;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+footer{
+    text-align: center;
+    color :#715d4b;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
 }
