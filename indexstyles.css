@@ -93,5 +93,27 @@ body{
         top: 123px;
         left: 2px;
     }
+    .square-side{
+        width: 20px;;
+        height: auto;
+        position:fixed;
+        top: 178px;
+        left: 15px;
+
+    }
+    .square-sidebtn{
+        width: 40px;
+        height: 35px;
+        background-color: #f4f4ef;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        position: fixed;
+        top: 171px;
+        left: 6px;
+    }
+    .square-sidebtn:hover{
+        background-color: #ebebe7;
+    }
 
 }

@@ -1,0 +1,21 @@
+body {
+  background-color: #f0e8f0; 
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #2e3d33; 
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c9b2c4; 
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+nav a {
+  color: #3e2f3c; 
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
