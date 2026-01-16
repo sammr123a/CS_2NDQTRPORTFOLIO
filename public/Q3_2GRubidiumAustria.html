@@ -48,6 +48,32 @@
 
 </select>
 
+<p>Intern or Extern?:</p>
+
+
+  <input type="radio" id="intern" name="internOrExtern" value="Intern">
+  <label for="intern">Intern</label></br>
+  <input type="radio" id="extern" name="internOrExtern" value="Extern">
+  <label for="extern">Extern</label></br>
+
+  <label for="preferredOrganization">What is your preferred organization?</label></br>
+
+ <select name="preferredOrganization" id="preferredOrganization">
+    <option value="Organization 1" selected disabled>Select your preferred organization</option>
+    <option value="Organization 1">Aksis</option>
+    <option value="Organization 2">Lagablab</option>
+    <option value="Organization 3">SciScho</option>
+    <option value="Organization 4">Munhwa</option>
+    <option value="Organization 5">SCA</option>
+
+</select> </br>
+
+   <label for="reason">Why do you want to join? </label></br>
+
+    <textarea id="tArea" name="reason" rows="4" cols="50"> </textarea>
+
+ <input type = "submit" value = "Submit form">
+ <input type = "reset" value = "Reset">
 
 </form>
 
@@ -55,4 +81,14 @@
 </body>
 
 </html>
+
+<script>
+    function confirmSubmit() {
+      return confirm("Are you sure you want to submit this form?");
+    }
+
+    function confirmReset() {
+      return confirm("This will clear all entered data. Do you want to continue?");
+    }
+  </script>
     
