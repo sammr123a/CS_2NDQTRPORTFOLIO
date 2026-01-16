@@ -84,11 +84,28 @@
 
 <script>
     function confirmSubmit() {
-      return confirm("Are you sure you want to submit this form?");
+        return confirm("Are you sure you want to submit this form?");
     }
 
     function confirmReset() {
-      return confirm("This will clear all entered data. Do you want to continue?");
+        return confirm("Are you sure you want to reset all information?");
     }
-  </script>
+
+    function checkEmpty(element) {
+        if (element.value.trim() === "") {
+            element.classList.add("invalid");
+        } else {
+            element.classList.remove("invalid");
+        }
+    }
+</script>
+</head>
+
+<body>
+
+<form method="post" action="submit"
+      onsubmit="return confirmSubmit()"
+      onreset="return confirmReset()">
+    </form>
+</script>
     
